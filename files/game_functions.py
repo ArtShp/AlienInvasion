@@ -1,8 +1,8 @@
 import sys
 import pygame
 from time import sleep
-from alien import Alien
-from bullet import Bullet
+from files.alien import Alien
+from files.bullet import Bullet
 
 
 def check_high_score(stats, sb):
